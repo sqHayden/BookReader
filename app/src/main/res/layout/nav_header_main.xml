@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    >
+    <ImageView android:id="@+id/imageView"
+        android:layout_width="94dp"
+        android:layout_height="105dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/hill3" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="EBook"
+            android:paddingTop="20dp"
+            android:layout_alignParentTop="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv"
+            android:text="Lv.1"
+            android:textColor="#B22222"
+            android:background="@drawable/level"
+            />
+    </RelativeLayout>
+</LinearLayout>

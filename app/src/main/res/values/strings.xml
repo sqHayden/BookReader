@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sad</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="question">"?"</string>
+
+
+    <string name="Hello_World">Hello_World</string>
+    <string name="title_setting">设置</string>
+    <string name="secret_setting">隐私和提醒设置</string>
+    <string name="account_setting">帐号绑定</string>
+    <string name="read_setting">同步阅读进度和笔记</string>
+    <string name="voice_setting">音量键导航</string>
+    <string name="screen_light_setting">屏幕亮度设置</string>
+    <string name="day_night_label">夜间模式</string>
+    <string name="eye_setting">护眼模式</string>
+    <string name="font_setting">字体</string>
+    <string name="flow_setting">移动网络流量</string>
+    <string name="download_setting">离线下载设置</string>
+    <string name="plug_manger">插件管理</string>
+    <string name="data_setting">数据存储位置</string>
+    <string name="delete_cache">清除缓存</string>
+    <string name="delete_download_cache">清除离线下载缓存</string>
+    <string name="delete_book">清除无效书籍</string>
+    <string name="check_update">检查更新</string>
+    <string name="valuation_setting">评价云阅读</string>
+    <string name="about_setting">关于</string>
+
+
+
+    <string name="login">登录</string>
+    <string name="symbol">&#60;</string>
+    <string name="register">注册</string>
+    <string name="find_password">忘记密码？</string>
+    <string name="wx">微信登录</string>
+    <string name="other">其他方式登录</string>
+    <string name="wrong_name">请填写正确的手机号码！</string>
+    <string name="wrong_password">输入密码不是由6-16位字母和数字组成！</string>
+    <string name="login_name">请输入正确的手机号码！</string>
+    <string name="login_password">请输入密码</string>
+    <string name="confirm">两次输入的密码不一致！</string>
+    <string name="next">找回</string>
+    <string name="return_login">返回登录</string>
+    <string name="modify">修改密码</string>
+</resources>

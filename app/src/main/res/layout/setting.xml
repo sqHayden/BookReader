@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mainBackground"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/id_fragment_title"
+        android:name="com.idx.reader.fragment.TitleFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/title_fragment" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+        <LinearLayout
+            android:background="?attr/mainBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+        <fragment
+            android:id="@+id/id_fragment_secret"
+            android:name="com.idx.reader.fragment.SecretFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            tools:layout="@layout/secret_fragment" />
+        <View   style="@style/bg_line"
+                android:background="?attr/border_col"/>
+        <fragment
+            android:id="@+id/id_fragment_account"
+            android:name="com.idx.reader.fragment.AccountFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            tools:layout="@layout/account_fragment" />
+        <View   style="@style/bg_line1"
+                android:background="?attr/border_col1"/>
+        <fragment
+            android:id="@+id/id_fragment_reading"
+            android:name="com.idx.reader.fragment.ReadingFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            tools:layout="@layout/reading_fragment" />
+        <View   style="@style/bg_line"
+                android:background="?attr/border_col"/>
+        <fragment
+            android:id="@+id/id_fragment_voice"
+            android:name="com.idx.reader.fragment.VoiceFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            tools:layout="@layout/voice_fragment" />
+         <View  style="@style/bg_line"
+                android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_screen_light"
+        android:name="com.idx.reader.fragment.ScreenLightFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/screen_light_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="start"
+                    android:text="@string/day_night_label"
+                    />
+                <Switch
+                    android:id="@+id/id_daynight_switch"
+                    android:checked="false"
+                    android:paddingStart="12dp"
+                    android:paddingLeft="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:switchMinWidth="20dp"
+                    android:focusable="false"
+                    android:thumb="@drawable/thumb1"
+                    android:track="@drawable/track"
+                    android:layout_alignTop="@+id/textview2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/textview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="start"
+                    android:text="@string/eye_setting"
+                    />
+                <Switch
+                    android:id="@+id/id_eye_switch"
+                    android:checked="false"
+                    android:paddingStart="12dp"
+                    android:paddingLeft="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:switchMinWidth="20dp"
+                    android:focusable="false"
+                    android:thumb="@drawable/thumb1"
+                    android:track="@drawable/track"
+                    android:layout_alignTop="@+id/textview1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+            <View   style="@style/bg_line"
+                    android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_font"
+        android:name="com.idx.reader.fragment.FontFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/font_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_flow"
+        android:name="com.idx.reader.fragment.FlowFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/flow_fragment" />
+    <View   style="@style/bg_line1"
+             android:background="?attr/border_col1"/>
+    <fragment
+        android:id="@+id/id_fragment_download"
+        android:name="com.idx.reader.fragment.DownloadFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/download_fragment" />
+    <View   style="@style/bg_line1"
+            android:background="?attr/border_col1"/>
+    <fragment
+        android:id="@+id/id_fragment_plug"
+        android:name="com.idx.reader.fragment.PlugFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/plug_fragment" />
+    <View   style="@style/bg_line1"
+            android:background="?attr/border_col1"/>
+    <fragment
+        android:id="@+id/id_fragment_data"
+        android:name="com.idx.reader.fragment.DataFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/data_fragment" />
+    <View   style="@style/bg_line1"
+            android:background="?attr/border_col1"/>
+    <fragment
+        android:id="@+id/id_fragment_deletecache"
+        android:name="com.idx.reader.fragment.DeleteCacheFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/delete_cache_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_deletedowncache"
+        android:name="com.idx.reader.fragment.DeleteDownloadFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/delete_down_cache_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_book"
+        android:name="com.idx.reader.fragment.DeleteBookFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/book_fragment" />
+    <View   style="@style/bg_line1"
+            android:background="?attr/border_col1"/>
+    <fragment
+        android:id="@+id/id_fragment_update"
+        android:name="com.idx.reader.fragment.UpdateFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/update_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_valuation"
+        android:name="com.idx.reader.fragment.ValuationFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/valuation_fragment" />
+    <View   style="@style/bg_line"
+            android:background="?attr/border_col"/>
+    <fragment
+        android:id="@+id/id_fragment_about"
+        android:name="com.idx.reader.fragment.AboutFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        tools:layout="@layout/about_fragment" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

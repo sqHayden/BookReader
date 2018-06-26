@@ -1,0 +1,96 @@
+<resources>
+
+    <style name="changColor">
+        <item name="color">@color/blue</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="mainBackground">@android:color/white</item>
+        <item name="border_col">@color/border_col</item>
+        <item name="border_col1">@color/border_col1</item>
+        <item name="stoker">@color/stoker_day</item>
+        <item name="little_btn">@color/little_btn_day</item>
+        <item name="font_">@color/font_day</item>
+    </style>
+    <style name="NightAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/nightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/nightColorPrimaryDark</item>
+        <item name="colorAccent">@color/nightColorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="mainBackground">@color/nightColorPrimaryDark</item>
+        <item name="border_col">@color/nightborder_col</item>
+        <item name="border_col1">@color/nightborder_col1</item>
+        <item name="stoker">@color/stoker_night</item>
+        <item name="little_btn">@color/little_btn_night</item>
+        <item name="font">@color/font_night</item>
+    </style>
+    <style name="EyeAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/eyeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/eyeColorPrimaryDark</item>
+        <item name="colorAccent">@color/eyeColorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="mainBackground">@color/eyeColorPrimaryDark</item>
+        <item name="border_col">@color/eyeborder_col</item>
+        <item name="border_col1">@color/eyeborder_col1</item>
+    </style>
+    <style name="AllAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/allColorPrimary</item>
+        <item name="colorPrimaryDark">@color/allColorPrimaryDark</item>
+        <item name="colorAccent">@color/allColorAccent</item>
+        <item name="android:textColor">@color/all</item>
+        <item name="mainBackground">@color/allColorPrimaryDark</item>
+        <item name="border_col">@color/allborder_col</item>
+        <item name="border_col1">@color/allborder_col1</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="wrap_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:padding">1px</item>
+        <item name="android:background">@drawable/bg_layout_shape</item>
+    </style>
+
+    <style name="base_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="mid_layout" parent="base_layout">
+        <item name="android:background">@drawable/mid_layout_selector</item>
+    </style>
+
+    <style name="img_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/more</item>
+    </style>
+
+    <style name="bg_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+    <style name="bg_line1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+</resources>

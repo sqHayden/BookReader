@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0602fd</color>
+    <color name="colorPrimaryDark">#383838</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="border_col">#ccc</color>
+    <color name="border_col1">#DCDCDC</color>
+
+    <color name="stoker_day">#424952</color>
+    <color name="stoker_night">#424952</color>
+    <color name="little_btn_day">#EBEBEB</color>
+    <color name="font_day">#ffffff</color>
+    <color name="little_btn_night">#ff333333</color>
+    <color name="font_night">#000000</color>
+
+    <color name="nightColorPrimary">#3b3b3b</color>
+    <color name="nightColorPrimaryDark">#383838</color>
+    <color name="nightColorAccent">#a72b55</color>
+    <color name="nightborder_col">#3b3b3b</color>
+    <color name="nightborder_col1">#3b3b3b</color>
+
+    <color name="eyeColorPrimary">#FFFAF0</color>
+    <color name="eyeColorPrimaryDark">#FFFAF0</color>
+    <color name="eyeColorAccent">#a72b55</color>
+    <color name="eyeborder_col">#EDF5E6</color>
+    <color name="eyeborder_col1">#EDF5E6</color>
+
+    <color name="allColorPrimary">#696969</color>
+    <color name="allColorPrimaryDark">#3b3b3b</color>
+    <color name="allColorAccent">#a72b55</color>
+    <color name="allborder_col">#696969</color>
+    <color name="allborder_col1">#696969</color>
+    <color name="all">#808080</color>
+
+    <color name="black1">#ffffffff</color>
+    <color name="black2">#808080</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="text_clo">#333</color>
+    <color name="white">#fff</color>
+
+
+
+    <color name="yellow">#ffff66</color>
+    <color name="gray">#FFC4C4C4</color>
+    <color name="red">#f00000</color>
+    <color name="pink">#ffcccc</color>
+    <color name="purple">#ff99cc</color>
+    <color name="green">#33cc33</color>
+    <color name="orange">#ffff00</color>
+    <color name="blue">#0099cc</color>
+</resources>

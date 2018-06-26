@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+    <ImageView
+        android:id="@+id/iv_subscribe"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/image1"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_toRightOf="@+id/iv_subscribe"
+        android:text="台风橙色预警：受'杜苏芮'影响 海南风力达10-12级"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_toRightOf="@+id/iv_subscribe"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="今年第19号台风“杜苏芮”已于今天（15日）凌晨加强为强台风级，早晨5点钟其中心位于越南北部海岸约180公里的南海中西部海面上。"
+        android:textSize="14sp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_time"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:src="@drawable/time"
+        android:layout_below="@+id/iv_subscribe" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="16:35"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/iv_time"
+        android:layout_toRightOf="@+id/iv_time"
+        android:layout_below="@+id/iv_subscribe"
+        android:textColor="#999999"/>
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="国内"
+        android:textSize="14sp"
+        android:layout_alignBottom="@id/iv_time"
+        android:layout_marginRight="300dp"
+        android:textColor="#ff7b00"/>
+
+    <ImageView
+        android:id="@+id/btn_comment"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        android:layout_alignBottom="@id/iv_time"
+        android:src="@drawable/thumb"
+        android:layout_width="19dp"
+        android:layout_height="19dp" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="300"
+        android:textSize="14sp"
+        android:layout_alignBottom="@id/iv_time"
+        android:layout_marginRight="170dp"
+        android:textColor="#999999"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/delete"
+        android:textSize="14sp"
+        android:layout_alignBottom="@id/iv_time"
+        android:layout_marginRight="80dp" />
+
+
+</RelativeLayout>
+
+
+
+

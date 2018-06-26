@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+   <TextView
+       android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_centerVertical="true"
+        android:gravity="start"
+        android:text="@string/day_night_label"
+        />
+    <Switch
+        android:id="@+id/id_daynight_switch"
+        android:checked="false"
+        android:paddingLeft="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:switchMinWidth="20dp"
+        android:focusable="false"
+        android:thumb="@drawable/thumb1"
+        android:track="@drawable/track"
+        android:layout_alignTop="@+id/textview2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

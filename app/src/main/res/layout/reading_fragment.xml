@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/id_reading_tv"
+        style="@style/mid_layout"
+        android:layout_centerVertical="true"
+        android:gravity="start"
+        android:text="@string/read_setting" />
+    <CheckBox
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:checked="false" />
+</RelativeLayout>
